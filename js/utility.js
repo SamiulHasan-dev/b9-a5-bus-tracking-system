@@ -34,13 +34,3 @@ document.getElementById("someId").onclick = function (){
 
 
 
-// function click(){
-    
-// }
-
-// function getCoupon(elementId){
-//     const coupon = document.getElementById(elementId);
-//     const couponValue = coupon.value;
-//     return couponValue;
-// }
-
