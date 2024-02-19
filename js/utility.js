@@ -27,6 +27,13 @@ function getElementTextById(elementId) {
     return text;
 }
 
+document.getElementById("someId").onclick = function (){
+    const location = getElementTextById('bus-screen');
+    window.location.hash = location;
+};
+
+
+
 // function click(){
     
 // }
