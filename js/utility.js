@@ -1,10 +1,10 @@
 
-function hideElementById(elementId){
+function hideElementById(elementId) {
     const elements = document.getElementById(elementId);
     elements.classList.add('hidden');
 }
 
-function showElementById(elementId){
+function showElementById(elementId) {
     const elements = document.getElementById(elementId);
     elements.classList.remove('hidden');
 }
@@ -27,10 +27,12 @@ function getElementTextById(elementId) {
     return text;
 }
 
-document.getElementById("someId").onclick = function (){
+document.getElementById("someId").onclick = function () {
     const location = getElementTextById('bus-screen');
     window.location.hash = location;
 };
+
+
 
 
 
